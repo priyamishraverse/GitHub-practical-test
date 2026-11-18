@@ -1,5 +1,13 @@
 # Priya Mishra — Personal Portfolio
 
+## Student Information
+
+- **Full Name:** Priya Mishra
+- **URN Number:** E25B031542
+- **Section:** A
+- **Subject:** Git and GitHub
+- **Semester:** 3
+
 A responsive personal portfolio website built using **HTML, CSS, and JavaScript**. It introduces my academic background, skills, leadership experience, projects, certificates, and contact links.
 
 ## About Me
