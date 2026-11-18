@@ -70,8 +70,34 @@ No additional packages or installations are required.
 **Priya Mishra**  
 B.Tech CSE Student | President – Entrepreneurship Club, ALTA School of Technology | NSS Discipline Team | Aspiring Cybersecurity & Full-Stack Developer | AI & Technology Enthusiast | Leadership & Innovation
 
-Email: priya1023mishra@gmail.com
+## Future Goals
+
+- Develop advanced cybersecurity projects.
+- Explore Artificial Intelligence and Data Science.
+- Strengthen full-stack development skills.
+- Participate in hackathons and technical competitions.
+- Contribute to open-source projects.
+- Build innovative technology solutions.
+
+## Professional Interests
+
+- Cybersecurity and Ethical Hacking
+- Full-Stack Web Development
+- Artificial Intelligence
+- Data Science
+- Entrepreneurship and Innovation
+- Technology Leadership
+
+## Connect With Me
+
+- **GitHub:** [@priyamishraverse](https://github.com/priyamishraverse)
+- **LinkedIn:** [Priya Mishra](https://www.linkedin.com/in/priya-mishra-a41a29384/)
+- **Email:** priya1023mishra@gmail.com
 
 ---
 
-_Built with HTML, CSS, and JavaScript._
+**Thank you for visiting my portfolio!**
+
+_Built with HTML, CSS, and JavaScript by Priya Mishra._
+
+---
