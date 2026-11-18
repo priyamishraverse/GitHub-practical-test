@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Priya Mishra — Computer Engineering student, aspiring cybersecurity specialist and full-stack developer."
+    />
+    <title>Priya Mishra | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Main navigation">
+        <a class="logo" href="#home">Priya<span>.</span></a>
+        <button
+          class="menu-toggle"
+          id="menu-toggle"
+          aria-label="Open navigation"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          ☰
+        </button>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Journey</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a class="nav-cta" href="#contact">Contact ↗</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container" id="home">
+        <div class="hero-content">
+          <p class="eyebrow">✦ WELCOME TO MY DIGITAL SPACE</p>
+          <h1>Hi, I'm <span class="gradient-text">Priya Mishra</span></h1>
+          <h2>B.Tech CSE Student · Future Innovator</h2>
+          <p class="profile-tagline">
+            President – Entrepreneurship Club, ALTA School of Technology | NSS
+            Discipline Team | Aspiring Cybersecurity &amp; Full-Stack Developer
+            | AI &amp; Technology Enthusiast | Leadership &amp; Innovation
+          </p>
+          <p class="hero-copy">
+            I'm a second-year student at ALTA School of Technology, Pune,
+            interested in cybersecurity, full-stack development and emerging
+            technology. I enjoy learning by building, collaborating with people
+            and turning ideas into meaningful experiences.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects"
+              >Explore my work ↗</a
+            >
+            <a class="button button-outline" href="#contact">Let's connect</a>
+          </div>
+          <p class="hero-note">💻 Learn · Build · Lead · Grow</p>
+        </div>
+        <div class="hero-visual">
+          <div class="photo-glow"></div>
+          <div class="photo-frame">
+            <!-- Add your photo at images/profile.jpg -->
+            <img
+              src="images/WhatsApp Image 2026-09-07 at 11.39.20.jpeg"
+              alt="Portrait of Priya Mishra"
+              class="profile-photo"
+              onerror="
+                this.style.display = 'none';
+                this.parentElement.classList.add('photo-placeholder');
+              "
+            />
+            <span class="photo-fallback"
+              >Add your photo<br /><small>images/profile.jpg</small></span
+            >
+          </div>
+          <div class="floating-tag tag-top">🚀 Future Innovator</div>
+          <div class="floating-tag tag-bottom">🔐 Tech Enthusiast</div>
+        </div>
+      </section>
+
+      <section class="section container" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">A LITTLE ABOUT ME</p>
+          <h2>Curiosity into <span class="gradient-text">action</span></h2>
+        </div>
+        <div class="about-panel">
+          <div>
+            <h3>Learning, leading and creating.</h3>
+            <p>
+              I am Priya Mishra, a B.Tech Computer Engineering student with an
+              interest in building secure, useful and user-friendly technology.
+            </p>
+            <p>
+              Alongside academics, I serve as President of the Entrepreneurship
+              Club at ALTA School of Technology. I enjoy bringing students
+              together, coordinating initiatives and encouraging ideas to move
+              towards execution.
+            </p>
+            <p>
+              I also value community service, sports, communication and
+              continuous personal growth.
+            </p>
+          </div>
+          <div class="stat-grid">
+            <div class="stat-card">
+              <strong>02nd</strong><span>Year of B.Tech</span>
+            </div>
+            <div class="stat-card">
+              <strong>9.41</strong><span>First-year CGPA*</span>
+            </div>
+            <div class="stat-card">
+              <strong>01</strong><span>Club leadership role</span>
+            </div>
+            <div class="stat-card">
+              <strong>∞</strong><span>Things to learn</span>
+            </div>
+          </div>
+        </div>
+        <p class="small-note">
+          *CGPA shown is the first-year result listed in my resume.
+        </p>
+      </section>
+
+      <section class="section section-alt" id="skills">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">WHAT I'M LEARNING</p>
+            <h2>Skills & <span class="gradient-text">interests</span></h2>
+            <p class="section-subtitle">
+              A growing toolkit — always learning and improving.
+            </p>
+          </div>
+          <div class="card-grid skills-grid">
+            <article class="info-card">
+              <span class="card-icon">💻</span>
+              <h3>Programming</h3>
+              <p>C, C++ and programming fundamentals.</p>
+            </article>
+            <article class="info-card">
+              <span class="card-icon">🌐</span>
+              <h3>Web Development</h3>
+              <p>HTML, CSS and JavaScript — building responsive web pages.</p>
+            </article>
+            <article class="info-card">
+              <span class="card-icon">🔐</span>
+              <h3>Cybersecurity</h3>
+              <p>Career interest in cybersecurity and secure systems.</p>
+            </article>
+            <article class="info-card">
+              <span class="card-icon">🤖</span>
+              <h3>Emerging Tech</h3>
+              <p>Exploring artificial intelligence and data science.</p>
+            </article>
+            <article class="info-card">
+              <span class="card-icon">🎨</span>
+              <h3>Creative & Office Tools</h3>
+              <p>MS Office and Adobe Photoshop.</p>
+            </article>
+            <article class="info-card">
+              <span class="card-icon">📊</span>
+              <h3>Business Tools</h3>
+              <p>Tally and GST training.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="experience">
+        <div class="section-heading">
+          <p class="eyebrow">BEYOND THE CLASSROOM</p>
+          <h2>Leadership & <span class="gradient-text">experience</span></h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-icon">👑</span>
+            <div>
+              <h3>President — Entrepreneurship Club</h3>
+              <p class="accent-text">ALTA School of Technology</p>
+              <p>
+                Supporting student initiatives, team coordination,
+                entrepreneurship awareness and event execution.
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-icon">💡</span>
+            <div>
+              <h3>ARTHOTSAV 2026</h3>
+              <p class="accent-text">Entrepreneurship Club</p>
+              <p>
+                Contributed to a campus entrepreneurship event featuring student
+                teams, vendors and practical business activities.
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-icon">🤝</span>
+            <div>
+              <h3>Course Coordinator Intern / Teaching & Mentoring</h3>
+              <p class="accent-text">Officers Career Academy · 1 year</p>
+              <p>
+                Guided Class 11 and 12 students, supported doubt-solving and
+                taught Information Technology.
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-icon">🌱</span>
+            <div>
+              <h3>NSS & Community Participation</h3>
+              <p class="accent-text">Social responsibility</p>
+              <p>
+                Participated in community initiatives and the Nasha Mukti
+                awareness rally.
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-icon">🥇</span>
+            <div>
+              <h3>Karate & Boxing</h3>
+              <p class="accent-text">State-level gold medalist</p>
+              <p>
+                Sports have helped me develop discipline, resilience and
+                determination.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="projects">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">IDEAS IN ACTION</p>
+            <h2>Selected <span class="gradient-text">projects</span></h2>
+            <p class="section-subtitle">
+              A few projects and initiatives from my learning journey.
+            </p>
+          </div>
+          <div class="card-grid project-grid">
+            <article class="project-card">
+              <span class="project-emoji">🌈</span>
+              <p class="project-type">WEB DEVELOPMENT</p>
+              <h3>Personal Portfolio</h3>
+              <p>
+                A responsive website to present my skills, experiences,
+                certificates and ways to connect.
+              </p>
+              <span class="tech-pills">HTML · CSS · JavaScript</span>
+            </article>
+            <article class="project-card">
+              <span class="project-emoji">🌊</span>
+              <p class="project-type">HACKATHON PROJECT</p>
+              <h3>FloodGuard AI</h3>
+              <p>
+                A project exploring an AI-based approach to flood-related
+                challenges.
+              </p>
+              <span class="tech-pills">AI · Problem Solving · Innovation</span>
+            </article>
+            <article class="project-card">
+              <span class="project-emoji">🚀</span>
+              <p class="project-type">ENTREPRENEURSHIP</p>
+              <h3>ARTHOTSAV 2026</h3>
+              <p>
+                A campus initiative supporting student entrepreneurship and
+                hands-on business experience.
+              </p>
+              <span class="tech-pills">Leadership · Events · Business</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="certificates">
+        <div class="section-heading">
+          <p class="eyebrow">PROOF OF LEARNING</p>
+          <h2>
+            Certificates & <span class="gradient-text">achievements</span>
+          </h2>
+          <p class="section-subtitle">
+            Replace the sample file paths below with clear images of your actual
+            certificates.
+          </p>
+        </div>
+        <div class="card-grid certificate-grid">
+          <article class="certificate-card">
+            <img
+              src="certificates/WhatsApp Image 2026-11-18 at 22.20.24.jpeg"
+              alt="C and C++ certificate"
+              loading="lazy"
+            />
+            <div>
+              <p class="project-type">PROGRAMMING</p>
+              <h3>C / C++ Certification</h3>
+              <p>Programming and coding fundamentals.</p>
+            </div>
+          </article>
+          <article class="certificate-card">
+            <img
+              src="certificates/WhatsApp Image 2026-11-18 at 22.20.24.jpeg"
+              alt="Microsoft Office certificate"
+              loading="lazy"
+            />
+            <div>
+              <p class="project-type">PRODUCTIVITY</p>
+              <h3>Microsoft Office</h3>
+              <p>Microsoft Office training/certification.</p>
+            </div>
+          </article>
+          <article class="certificate-card">
+            <img
+              src="certificates/WhatsApp Image 2026-11-18 at 22.20.24.jpeg"
+              alt="Tally and GST certificate"
+              loading="lazy"
+            />
+            <div>
+              <p class="project-type">BUSINESS TOOLS</p>
+              <h3>Tally & GST</h3>
+              <p>Training in accounting and GST tools.</p>
+            </div>
+          </article>
+          <article class="certificate-card">
+            <img
+              src="certificates/WhatsApp Image 2026-11-18 at 22.20.24.jpeg"
+              alt="My Bharat certificate"
+              loading="lazy"
+            />
+            <div>
+              <p class="project-type">VOLUNTEERING</p>
+              <h3>My Bharat</h3>
+              <p>My Bharat certification.</p>
+            </div>
+          </article>
+          <article class="certificate-card">
+            <img
+              src="certificates/Screenshot 2026-11-18 at 10.17.00 PM.png"
+              alt="NSS Nasha Mukti Rally certificate"
+              loading="lazy"
+            />
+            <div>
+              <p class="project-type">COMMUNITY</p>
+              <h3>NSS — Nasha Mukti Rally</h3>
+              <p>Certificate of participation.</p>
+            </div>
+          </article>
+          <article class="certificate-card">
+            <img
+              src="certificates/karate-boxing.jpg"
+              alt="Karate and boxing achievement"
+              loading="lazy"
+            />
+            <div>
+              <p class="project-type">SPORTS</p>
+              <h3>Karate & Boxing</h3>
+              <p>State-level gold medalist.</p>
+            </div>
+          </article>
+        </div>
+        <p class="small-note">
+          Tip: If you do not have an image for an item yet, add it later or
+          remove that certificate card.
+        </p>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">LET'S CONNECT</p>
+            <h2>
+              Let's create something
+              <span class="gradient-text">meaningful</span>.
+            </h2>
+            <p class="section-subtitle">
+              Have an idea, opportunity or project? I'd love to connect.
+            </p>
+          </div>
+          <div class="social-grid">
+            <!-- Replace YOUR_USERNAME with your real profile usernames/URLs. -->
+            <a
+              class="social-card"
+              href="https://github.com/priyamishraverse"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><span>⌘</span>
+              <h3>GitHub</h3>
+              <p>Explore my code and projects</p>
+              <b>Visit profile ↗</b></a
+            >
+            <a
+              class="social-card"
+              href="https://www.linkedin.com/in/priya-mishra-a41a29384/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><span>in</span>
+              <h3>LinkedIn</h3>
+              <p>Connect professionally</p>
+              <b>Connect with me ↗</b></a
+            >
+            <a
+              class="social-card"
+              href="https://www.instagram.com/priya4185mishra/?__pwa=1"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><span>◎</span>
+              <h3>Instagram</h3>
+              <p>Follow my journey</p>
+              <b>Follow me ↗</b></a
+            >
+            <a class="social-card" href="mailto:priya1023mishra@gmail.com"
+              ><span>✉</span>
+              <h3>Email</h3>
+              <p>Send me a message</p>
+              <b>Write to me ↗</b></a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        Made with <span aria-label="love">💜</span> by
+        <strong>Priya Mishra</strong>
+      </p>
+      <p>© <span id="year"></span> Priya Mishra. All rights reserved.</p>
+    </footer>
+
+    <div
+      class="image-modal"
+      id="image-modal"
+      aria-hidden="true"
+      role="dialog"
+      aria-label="Certificate preview"
+    >
+      <button class="modal-close" id="modal-close" aria-label="Close preview">
+        ×
+      </button>
+      <img id="modal-image" src="" alt="Certificate enlarged preview" />
+    </div>
+  </body>
+</html>
